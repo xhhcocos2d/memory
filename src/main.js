@@ -9,14 +9,13 @@ import store from 'vuex'
 import VueExtended from './javascript/util/vue.extended'
 // ECMASCRIPT扩展方法
 import './javascript/util/system.extended'
-import Eleme from 'element-ui'
+import './javascript/rem'
 
 // scss样式加载
 import './scss/index.scss'
 
 Vue.config.productionTip = false
 Vue.use(vueResource)
-Vue.use(Eleme)
 Vue.use(VueExtended)
 
 /* eslint-disable no-new */

@@ -60,3 +60,21 @@ a {
 .back-enter-active, .back-leave-active {
   transition: transform .5s ease-out;
 }
+html, body {
+  width: 100%;
+  background: url("./../assets/data/bg.png") no-repeat 100% 100%;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1.5rem;
+}
+.title {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  text-align: left;
+  margin-top: 1.5rem;
+  color: #803e10;
+}
