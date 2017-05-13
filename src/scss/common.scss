@@ -1,0 +1,35 @@
+// 分类头部样式
+.part-header {
+  box-sizing: content-box;
+  height: 30px;
+  padding: 27px 0 20px 0;
+  text-align: $textCenter;
+  label {
+    font-size: $fontSize18;
+    line-height: 22px;
+    float: left;
+  }
+  a {
+    display: inline-block;
+    background-color: $black;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: $fontSize12;
+    color: $white;
+    float: right;
+  }
+}
+
+.container {
+  overflow: hidden;
+}
+
+/*
+  底部
+*/
+.body {
+  background-color: $containerBgColor;
+  overflow: hidden;
+  padding-bottom: 60px;
+}

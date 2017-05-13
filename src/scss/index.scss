@@ -1,0 +1,62 @@
+@import "colors";
+@import "font.size";
+@import "const";
+@import "minxin";
+@import "base";
+@import "common";
+
+a {
+  color: $containerFontColor9;
+}
+
+/**
+字体
+ */
+.yahei {
+  font-family: "Microsoft YaHei";
+}
+
+/**
+查看更多
+ */
+.more {
+  @extend .yahei;
+  background-color: $black;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+}
+
+/*动画*/
+.back-leave-to, .slide-leave-to {
+  position: absolute;
+}
+
+.slide-leave-active {
+  transform: translateX(-100%);
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter-active, .slide-leave-active {
+  transition: transform .5s ease-out;
+}
+
+//.slide-enter, .slide-leave-active {
+//  opacity: 0;
+//}
+
+/*返回*/
+.back-leave-active {
+  transform: translateX(100%);
+}
+
+.back-enter {
+  transform: translateX(-100%);
+}
+
+.back-enter-active, .back-leave-active {
+  transition: transform .5s ease-out;
+}

@@ -1,0 +1,17 @@
+/**
+  公用背景图
+ */
+@mixin bg-image($url) {
+  background-image: url('#{$url}.png');
+}
+
+/**
+  icon背景图大小
+ */
+@mixin bg-size($w,$h) {
+  content: '';
+  display: inline-block;
+  width: #{$w}px;
+  height: #{$h}px;
+  background-size: #{$w}px #{$h}px;
+}
