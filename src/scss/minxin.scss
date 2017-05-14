@@ -15,3 +15,7 @@
   height: #{$h}px;
   background-size: #{$w}px #{$h}px;
 }
+
+@function size($size) {
+  @return #{$size/14}rem
+}

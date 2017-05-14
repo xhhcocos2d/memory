@@ -10,8 +10,8 @@
   let recalc = () => {
     let clientWidth = docEl.clientWidth
     if (!clientWidth) return
-    docEl.style.fontSize = 10 * (clientWidth / 375) + 'px'
-    window.htmlFontSize = 10 * (clientWidth / 375)
+    docEl.style.fontSize = 14 * (clientWidth / 375) + 'px'
+    window.htmlFontSize = 14 * (clientWidth / 375)
   }
   recalc()
   if (!doc.addEventListener) return

@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <mt-header></mt-header>
+    <!--<mt-header></mt-header>-->
     <div class="body">
       <transition name="slide">
         <router-view></router-view>
       </transition>
     </div>
-    <mt-footer></mt-footer>
+    <!--<mt-footer></mt-footer>-->
   </div>
 </template>
 
 <script>
-  import mtHeader from './components/common/header.vue'
-  import mtFooter from './components/common/footer.vue'
+//  import mtHeader from './components/common/header.vue'
+//  import mtFooter from './components/common/footer.vue'
   export default {
 //      组件名称
     name: 'app',
@@ -22,8 +22,8 @@
     },
 //    子组件列表
     components: {
-      mtHeader,
-      mtFooter
+//      mtHeader,
+//      mtFooter
     },
 //    组件实例被创建之后被调用
     created () {
